@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <script src=" https://unpkg.com/scrollreveal"></script>
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-PPIZEGYM1v8zp5Py7UjFb79S58UeqCL9pYVnVPURKEqvioPROaVAJKKLzvH2rDnI" 
+    crossorigin="anonymous"
+    >    
+    <title>MunMUn Travel House</title>
+</head>
+<body>
+    <!-- Navbar -->
+     <nav>
+        <a href="Index.html" class="brand">
+            <h1>MTH<b class="accent">cab</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="Index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="Index.html#about">ABOUT</a>
+            <a href="Index.html#testimonials">REVIEWS</a>
+        </div>
+
+        <button class="btn-2" onclick="window.location.href='contact.html'">Get Started</button>
+
+        <div class="btn"><i class="fas fa-bars menu-btn"></i></div>
+     </nav>
+    <!-- Navbar End -->
+
+
+     <!-- Contact section -->
+      <section class="contact">
+        <h1>Get in Touch for your Dream Ride!</h1>
+        <p>
+            Have questions or need assistance? Our team is here to help you find the
+            perfect car for your adventure.
+        </p>
+
+        <form action="https://api.web3forms.com/submit" method="post">
+            <!-- Replace with your Access key -->
+             <input type="hidden" name="access_key" value="f789788e-15a5-489e-9520-a976a2698530">
+
+             <div class="car-select">
+                <div class="car-select-item">
+                    <label for="location">Location:</label>
+                    <select name="location" class="car-select-input" id="location">
+                        <option value="Bhopal">Bhopal</option>
+                        <option value="Indore">Indore</option>
+                    </select>
+                </div>
+                <div class="car-select-item">
+                    <label for="car-type">Car to rent:</label>
+                    <select name="car-type" class="car-select-input" id="car-type">
+                        <option value="Swift Dzire">Swift Dzire</option>
+                        <option value="Hyundai Aura">Hyundai Aura</option>
+                        <option value="Maruti Ciaz">Maruti Ciaz</option>
+                        <option value="Maruti Ertiga">Maruti Ertiga</option>
+                        <option value="Suzuki Xl6">Suzuki Xl6</option>
+                        <option value="Mahindra Xylo">Mahindra Xylo</option>
+                        <option value="Innova Crysta">Innova Crysta</option>
+                        <option value="Kia Carens">Kia Carens</option>
+                        <option value="Toyota Fortuner">Toyota Fortuner</option>
+                        <option value="15 Seater Traveller">15 Seater Traveller</option>
+                        <option value="25 Seater Traveller">25 Seater Traveller</option>
+                        <option value="Volvo Bus">Volvo Bus</option>
+                    </select>
+                </div>
+                <div class="car-select-item">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" class="car-select-input">
+                </div>
+             </div>
+
+             <div class="contact-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="phone" name="phone" placeholder="phone" required>
+                <button type="submit" class="btn-2">Submit</button>
+             </div>
+        </form>
+      </section>
+     <!-- contact sention End -->
+
+    
+    <!-- Footer Section -->
+     <footer class="contact-footer">
+        <div class="callout">
+            <h2>Let's drive with Munmun Travel House</h2>
+            <p class="callout-description">
+                Need assistance or ready to reserve your wheels? Contact us now for prompt service and effortless booking!
+            </p>
+            <div class="callout-buttons">
+                <button
+                class="btn-2 btn-callout"
+                onclick="window.location.href='collection.html'"
+                >
+                <p>Check Our Cars</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+            <button
+                class="btn-2 btn-callout btn-callout-black"
+                onclick="window.location.href='contact.html'"
+                >
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+            </button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="/" class="footer-brand">MTH<b class="accent">cab</b></a>
+            <div class="socials">
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="signature">
+                <p>&copy;JAN 2025 Webincoder. All rights reserved</p>
+                <p>Created by ❤️ Suman kumar.</p>
+            </div>
+        </div>
+        
+     </footer>
+     <!-- Footer section end -->
+</body>
+</html>
